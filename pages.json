@@ -6,7 +6,46 @@
 				"navigationBarTitleText": "uni-app"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/createList/createList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建表单",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/finalList/finalList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "历史表单",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/personalCenter/personalCenter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/personalCenter/personalCenter",
+				"text": "个人中心"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
