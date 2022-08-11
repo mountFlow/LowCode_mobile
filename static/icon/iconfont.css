@@ -1,6 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3574249 */
-  src:  url('https://at.alicdn.com/t/c/font_3574249_5skh4vcbo0j.ttf?t=1660099031729') format('truetype');
+  src: url('@/static/icon/iconfont.woff2?t=1660191490951') format('woff2'),
+       url('@/static/icon/iconfont.woff?t=1660191490951') format('woff'),
+       url('@/static/icon/iconfont.ttf?t=1660191490951') format('truetype');
 }
 
 .iconfont {
@@ -9,6 +11,18 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youjiantou:before {
+  content: "\e630";
+}
+
+.icon-danxuankuang1:before {
+  content: "\e62d";
+}
+
+.icon-danxuankuang:before {
+  content: "\e61c";
 }
 
 .icon-anniu:before {
@@ -29,10 +43,6 @@
 
 .icon-riqixuanzeqi:before {
   content: "\e647";
-}
-
-.icon-danxuan:before {
-  content: "\e751";
 }
 
 .icon-xinjian:before {

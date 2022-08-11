@@ -97,7 +97,7 @@
 					},
 					{
 						mName : "单选",
-						mIcon : 'icon-danxuan'
+						mIcon : 'icon-danxuankuang1'
 					}
 				],
 				// 样式分类

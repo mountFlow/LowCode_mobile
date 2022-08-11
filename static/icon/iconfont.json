@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "886993",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "5881146",
+      "name": "单选框",
+      "font_class": "danxuankuang1",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "11134480",
+      "name": "单选框",
+      "font_class": "danxuankuang",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
       "icon_id": "1766470",
       "name": "符号-按钮",
       "font_class": "anniu",
@@ -39,13 +60,6 @@
       "font_class": "riqixuanzeqi",
       "unicode": "e647",
       "unicode_decimal": 58951
-    },
-    {
-      "icon_id": "26323690",
-      "name": "单选",
-      "font_class": "danxuan",
-      "unicode": "e751",
-      "unicode_decimal": 59217
     },
     {
       "icon_id": "5303535",
