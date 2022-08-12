@@ -13,7 +13,7 @@
 				<scroll-view scroll-top="scrollTop" scroll-y="true">
 					<!-- 使用了uni-row 布局-行插件 -->
 				<uni-row> 
-					<uni-col :span="8" v-for="(item,index) in moduleInfoOne" :key="item">
+					<uni-col :span="8" v-for="(item,index) in moduleInfoOne" :key="index">
 						<view class="module_area">
 							<view :class="'iconfont '+ item.mIcon +' module_icon'"></view>
 							<view class="module_name">{{ item.mName }}</view>

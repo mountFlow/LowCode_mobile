@@ -1,6 +1,6 @@
 {
-    "name" : "LowCode_mobile",
-    "appid" : "__UNI__E63CF90",
+    "name" : "LowCode-Mobile",
+    "appid" : "__UNI__94B31B1",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -53,7 +53,7 @@
         "appid" : "wx6c4827f3ebda0d4e",
         "setting" : {
             "urlCheck" : false,
-            "checkSiteMap" : false
+            "es6" : false
         },
         "usingComponents" : true
     },
