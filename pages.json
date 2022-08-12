@@ -51,11 +51,21 @@
 		"list": [
 			{
 				"pagePath": "pages/index/index",
-				"text": "首页"
+                "iconPath": "static/toolbar/home-selected.png",
+                "selectedIconPath": "static/toolbar/home.png",
+				"text": "首页",
+                "iconfont": {
+                    "selectedColor": "#3766ff"
+                }
 			},
 			{
 				"pagePath": "pages/personalCenter/personalCenter",
-				"text": "个人中心"
+                "iconPath": "static/toolbar/user-selected.png",
+                "selectedIconPath": "static/toolbar/user.png",
+				"text": "个人中心",
+                "iconfont": {
+                    "selectedColor": "#3766ff"
+                }
 			}
 		]
 	},

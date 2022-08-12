@@ -49,6 +49,7 @@
 				                <button class="color_btn" type="primary" @click="showPickerColorPop()">点我选择背景颜色</button>
 				            </view>
 				        </view>	
+                        
 				</scroll-view>
 			</uni-collapse-item>
 			<!-- 确定发布 -->
